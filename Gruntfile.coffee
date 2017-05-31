@@ -21,7 +21,7 @@ module.exports = (grunt) ->
         template: 'umd.hbs'
         amdModuleId: '<%= pkg.name %>'
         objectToExport: '<%= name %>'
-        globalAlias: '<%= name %>'
+        globalAlias: 'simpleHotkeys'
         deps:
           'default': ['$', 'SimpleModule']
           amd: ['jquery', 'simple-module']
